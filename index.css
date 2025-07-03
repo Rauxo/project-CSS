@@ -114,3 +114,32 @@ a{
     color: #000;
     margin-top: 20px;
 }
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    margin-left: 0.75rem;
+}
+.nav-icons img{
+    height: 2rem;
+    width: 2rem;
+}
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+.dark-badge{
+    background-color: #000;
+    color: white;
+}
+.user-icon{
+margin-top: 1rem;
+}
