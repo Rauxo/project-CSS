@@ -128,7 +128,34 @@
                 <div class="line"></div>
             </div>
       </div>
-      <div class="music-player">Music Player</div>
+      <div class="music-player">
+        <div class="album">
+            <img src="./assets/card3img.jpeg" alt="" class="album-img">
+            <div class="song-details">
+            <p class="song-title">Song Name</p>
+            <p class="song-info">Song info</p>
+            </div>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="player">
+            <div class="player-control">
+                <img src="./assets/player_icon1.png" class="player-control-icon" alt="">
+                <img src="./assets/player_icon2.png" class="player-control-icon" alt="">
+                <img src="./assets/player_icon3.png" style="opacity: 1; height: 3rem;" class="player-control-icon" alt="">
+                <img src="./assets/player_icon4.png" class="player-control-icon" alt="">
+                <img src="./assets/player_icon5.png" class="player-control-icon" alt="">
+            </div>
+            <div class="playback-bar">
+                <span class="cur-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar">
+                <span class="tot-time">03:54</span>
+            </div>
+        </div>
+        <div class="control">
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" min="0" max="100" class="sound-bar">
+        </div>
+      </div>
     </div>
   </body>
 </html>
